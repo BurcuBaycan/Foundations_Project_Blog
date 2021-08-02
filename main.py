@@ -162,9 +162,9 @@ def contact():
 
 @app.route("/new-post", methods=["GET", "POST"])
 def add_new_post():
-    form = CreatePostForm(
+    form = CreatePostForm()
     if form.validate_on_submit():
-        new_post=BlogPost(
+        new_post = BlogPost(
             title=form.title.data,
             subtitle=form.subtitle.data,
             body=form.body.data,
@@ -177,14 +177,15 @@ def add_new_post():
         return redirect(url_for("get_all_posts"))
     return render_template("make-post.html", form=form)
 
-@ app.route("/delete/<int:post_id>")
+
+@app.route("/delete/<int:post_id>")
 def delete_post(post_id):
-    post_to_delete=BlogPost.query.get(post_id)
+    post_to_delete = BlogPost.query.get(post_id)
     db.session.delete(post_to_delete)
     db.session.commit()
     return redirect(url_for('get_all_posts'))
 
 
 if __name__ == "__main__":
-    # app.debug = True
+    app.debug = True
     app.run(host='0.0.0.0', port=5000)
