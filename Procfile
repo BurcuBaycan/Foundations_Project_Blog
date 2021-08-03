@@ -1,1 +1,1 @@
-web: gunicorn burcus-blog:app
+web: gunicorn main:app
