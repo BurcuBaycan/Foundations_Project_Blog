@@ -1,1 +1,1 @@
-web: gunicorn burcus-blog:app
+worker: python main.py
