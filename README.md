@@ -14,16 +14,14 @@ Users can also comment on other peoples posts.
 ## Technologies
 
 Flask framework.
-Sqlite database locally and postgres database on server.
+
 Python
 
 ## Defects
 If another user has the same name they can delete the post of another user with the same name.
 Users can't edit their posts.
-If you update the ratings you gave, the average ratings won't update.
-The books on the shelf cannot be deleted.
-Reset password part hasn't been implemented.
-The book detail page on deployed web app cannot hide excess text in the description.(While it works fine locally)
+
+
 
 ## Get Started
 Clone it to your computer
@@ -48,3 +46,4 @@ Quit the web app Press CTRL+C in terminal
 
 ## Sources:
 Udemy: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+https://www.youtube.com/watch?v=dam0GPOAvVI
