@@ -21,7 +21,9 @@ Python
 If another user has the same name they can delete the post of another user with the same name.
 Users can't edit their posts.
 
+##Check out this project on Heroku
 
+https://burcus-blog.herokuapp.com/
 
 ## Get Started
 Clone it to your computer
