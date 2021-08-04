@@ -21,7 +21,7 @@ Python
 If another user has the same name they can delete the post of another user with the same name.
 Users can't edit their posts.
 
-##Check out this project on Heroku
+## Check out this project on Heroku
 
 https://burcus-blog.herokuapp.com/
 
@@ -47,5 +47,8 @@ Open the web app Go http://localhost:5000 in your browser.
 Quit the web app Press CTRL+C in terminal
 
 ## Sources:
-Udemy: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
-https://www.youtube.com/watch?v=dam0GPOAvVI
+-Udemy: 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+
+-FLASK blog tutorial by Corey Schafer: https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH
+
+-Python Website Full Tutorial - Flask, Authentication, Databases & More by Tech with Tim: https://www.youtube.com/watch?v=dam0GPOAvVI
